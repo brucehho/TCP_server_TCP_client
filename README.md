@@ -15,7 +15,7 @@ Before we can run the client program, we must first run the server program that 
 <img src="https://raw.githubusercontent.com/brucehho/TCP_server_TCP_client/main/example/Screenshot%202021-07-15%20212829.jpg" width="350" height="300"/>  
   
 Go to the server program to check if anything printed on the **terminal window**.  
-<img src="https://raw.githubusercontent.com/brucehho/TCP_server_TCP_client/main/example/Screenshot%202021-07-15%20161223.jpg" width="650" height="300"/>  
+<img src="https://raw.githubusercontent.com/brucehho/TCP_server_TCP_client/main/example/Screenshot%202021-07-15%20161223.jpg" width="650" height="250"/>  
   
 
 ``` 
