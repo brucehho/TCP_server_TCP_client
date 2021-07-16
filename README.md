@@ -2,18 +2,8 @@
 
 
 ## TCP server:
-Create a Qt console application project and choose a new C++ class name as server.<br>
-.pro: <br>
-QT += network <br>
-server.h:<br>
-declare startServer() and sendMessageToClients() functions in the public of the class:    	
-Declare the slot functions:   
-Declare two private variables:    
-In server.cpp, define the startServer() function.   
-
-
-###
-
+TCP networking is typically used for programs that require every piece of data to be sent and received in sequence. It also ensures that the client receives the data and sends a notification to the server.  
 
 ## TCP client:
+![image](https://user-images.githubusercontent.com/30223380/125893402-c6000b1e-1140-4ed6-9409-f2e13e769dda.png width="300" height="250")
 
