@@ -6,9 +6,8 @@ Create a Qt console application project and choose a new C++ class name as serve
 .pro: <br>
 QT += network <br>
 server.h:<br>
-
-declare startServer() and sendMessageToClients() functions in the public of the class:	
-Declare the slot functions:	
+declare startServer() and sendMessageToClients() functions in the public of the class:    	
+Declare the slot functions:   
 Declare two private variables:    
 In server.cpp, define the startServer() function.   
 
