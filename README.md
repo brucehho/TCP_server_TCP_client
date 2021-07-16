@@ -74,10 +74,11 @@ void MainWindow::printMessage(QString message)
 }
 ```
 ```
-// on_connectBtton_clicked() will be triggered when the connec button is clicked.
+// *on_connectBtton_clicked()* will be triggered when the connec button is clicked.
 //when the Send button has been clicked
 // will be called when the client successfully connects to the server.
 //socketDiconnected() will be triggered when the client disconnects from the server.
 //prints out the message sent from the server.
-```
+```  
+  
 
