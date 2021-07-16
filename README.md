@@ -31,7 +31,15 @@ In main.cpp
 server* myServer = new server();
 myServer->startServer();
 ```
-
+In server.cpp  
+// create a QVector container to store all the clients that are connected to the server.  
+//Send the message to each of them  
+//iterate through the all clients container.  
+//newClientConnection()  
+//when a client has been disconnected from the server  
+//be triggered when the client sends a text message to the server.  
+//Implement the socketStateChanged(), which will be called when the client's network state changes.  
+//And convert the code to socketStateChanged() to display the client's state.  
 <img src="https://raw.githubusercontent.com/brucehho/TCP_server_TCP_client/main/example/Screenshot%202021-07-15%20124802.jpg" width="500" height="80"/>
 
 
