@@ -8,7 +8,23 @@ The **server** application just handles everything silently behind the scenes, i
 TCP networking is typically used for programs that require every piece of data to be sent and received in sequence. It also ensures that the client receives the data and sends a notification to the server.  
 ``` 
 QT += network
-``` 
+```  
+```
+// qtcp module.
+#include <QTcpServer>
+#include <QTcpSocket>
+#include <QVector>
+#include <QDebug>
+```
+```
+//declare startServer() and sendMessageToClients() functions
+//in the public of the class:
+	void startServer();
+    void sendMessageToClients(QString message);
+```
+```// declare the slot functions
+```//declare 2 private variable  
+
 <img src="https://raw.githubusercontent.com/brucehho/TCP_server_TCP_client/main/example/Screenshot%202021-07-15%20124802.jpg" width="500" height="80"/>
 
 
