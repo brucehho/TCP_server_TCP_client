@@ -9,8 +9,8 @@ server.h:<br>
 
 declare startServer() and sendMessageToClients() functions in the public of the class:	
 Declare the slot functions:	
-Declare two private variables:	
-In server.cpp, define the startServer() function.	
+Declare two private variables:    
+In server.cpp, define the startServer() function.   
 
 
 ###
