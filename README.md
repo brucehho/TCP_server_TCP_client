@@ -6,7 +6,7 @@ TCP networking is typically used for programs that require every piece of data t
 
 ## TCP client:
 
-<img src="https://raw.githubusercontent.com/brucehho/TCP_server_TCP_client/main/example/Screenshot%202021-07-15%20124802.jpg" width="500" height="200"/>
+<img src="https://raw.githubusercontent.com/brucehho/TCP_server_TCP_client/main/example/Screenshot%202021-07-15%20124802.jpg" width="400" height="150"/>
 
 
  
