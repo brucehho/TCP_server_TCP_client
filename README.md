@@ -19,18 +19,19 @@ QT += network
 ```
 //declare startServer() and sendMessageToClients() functions
 //in the public of the class:
-	void startServer();
-    void sendMessageToClients(QString message);
+void startServer();
+void sendMessageToClients(QString message);
 ```
 ```
 // declare the slot functions
 //declare 2 private variable
-```  
+```
 In main.cpp  
 ```
-	server* myServer = new server();
-	myServer->startServer();
+server* myServer = new server();
+myServer->startServer();
 ```
+
 <img src="https://raw.githubusercontent.com/brucehho/TCP_server_TCP_client/main/example/Screenshot%202021-07-15%20124802.jpg" width="500" height="80"/>
 
 
