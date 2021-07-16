@@ -43,7 +43,8 @@ In main.cpp
 server* myServer = new server();
 myServer->startServer();
 ```
-In server.cpp  
+In server.cpp:  
+```
 // create a QVector container to store all the clients that are connected to the server.  
 //Send the message to each of them  
 //iterate through the all clients container.  
@@ -52,6 +53,8 @@ In server.cpp
 //be triggered when the client sends a text message to the server.  
 //Implement the socketStateChanged(), which will be called when the client's network state changes.  
 //And convert the code to socketStateChanged() to display the client's state.  
+```
+In Client:  
 ```
 private slots:
 //The slots set in the ui.
